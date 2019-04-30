@@ -2,7 +2,7 @@
 
 # Preface {- #preface}
 
-## About
+## About {-}
 
 ### Aims
 
@@ -37,7 +37,7 @@ This is a practical application of text analytics. With this knowledge in hand s
 
 - Who is this book for? 
 
-## R and RStudio
+## R and RStudio {-}
 
 ### Why program? Why R?
 
@@ -149,4 +149,4 @@ Introduction to the popular IDE for R
 
 Setup
 
-## Acknowledgements
+## Acknowledgements {-}
