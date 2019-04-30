@@ -7,3 +7,4 @@ _bookdown_files
 rsconnect
 docs/*
 .DS_Store
+*.Rproj
