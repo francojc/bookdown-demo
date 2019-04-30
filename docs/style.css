@@ -1,0 +1,37 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/* ---- additions ---- */
+
+/* Notes */
+
+.rmdnote, .rmdtip, .rmdwarning, .rmdkey {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: rgb(248,248,248) no-repeat 5px center/3em;
+}
+
+.rmdkey {
+  background-image: url("images/key.png");
+}
+.rmdnote {
+  background-image: url("images/note.png");
+}
+.rmdtip {
+  background-image: url("images/tip.png");
+}
+.rmdwarning {
+  background-image: url("images/warning.png");
+}

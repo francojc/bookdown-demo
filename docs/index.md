@@ -2,7 +2,7 @@
 title: "Text as Data"
 subtitle: "An introduction to quantitative analysis and reproducible research in R"
 author: "Jerid C. Francom"
-date: "`r format(Sys.Date(), '%B %d, %Y')` (latest version)"
+date: "April 30, 2019 (latest version)"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -22,25 +22,14 @@ description: "A textbook aimed at providing language researchers an introduction
   - ??
 -->
 
-```{r include = FALSE}
-if(!knitr:::is_html_output())
-{
-  options("width"=56)
-  knitr::opts_chunk$set(tidy.opts=list(width.cutoff=56, indent = 2), tidy = TRUE)
-  knitr::opts_chunk$set(fig.pos = 'H')
-}
-```
+
 
 # Welcome {- #welcome}
 
-```{r setup, echo=FALSE}
-pacman::p_load(tidyverse, rmarkdown, webshot)
-```
 
 
-```{r settings, echo=FALSE, out.width='45%'}
-knitr::include_graphics("images/cover-alt-pub.png")
-```
+
+<img src="images/cover-alt-pub.png" width="45%" />
 
 This is the website for *Text as Data: An introduction to quantitative analysis and reproducible research in R*
 
@@ -49,9 +38,4 @@ This is the website for *Text as Data: An introduction to quantitative analysis 
 
 Jerid Francom is Associate Professor of Spanish and Linguistics at Wake Forest University. His research interests are focused around quantitative approaches to language variation. 
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'latex/packages.bib')
-```
+

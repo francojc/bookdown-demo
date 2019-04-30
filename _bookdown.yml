@@ -1,5 +1,4 @@
-book_filename: "textbook"
-language:
-  ui:
-    chapter_name: "Chapter "
+book_filename: "tad-textbook"
+output_dir: "docs"
 delete_merged_file: true
+new_session: yes
