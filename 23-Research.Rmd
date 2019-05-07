@@ -1,0 +1,18 @@
+# Framing research
+
+```{block, type="rmdkey"}
+In this chapter you will learn:
+
+- ...
+```
+
+... introduction, and outline of the chapter
+
+## Approaches to research
+
+## Quantitative studies
+
+## Research questions
+
+## Activities {-}
+

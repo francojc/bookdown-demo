@@ -1,4 +1,9 @@
 book_filename: "tad-textbook"
 output_dir: "docs"
 delete_merged_file: true
+language:
+  ui:
+    edit: "Edit"
+    chapter_name: "Chapter "
+before_chapter_script: "_common.R"
 new_session: yes

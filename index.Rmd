@@ -1,18 +1,20 @@
 --- 
 title: "Text as Data"
-subtitle: "An introduction to quantitative analysis and reproducible research in R"
+subtitle: "An Introduction to Quantitative Analysis and Reproducible Research in R"
 author: "Jerid C. Francom"
 date: "`r format(Sys.Date(), '%B %d, %Y')` (latest version)"
+description: "A textbook aimed at providing language researchers an introduction to text analysis literate programming concepts and coding practices."
+cover-image: images/cover-alt-pub.png
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
-bibliography: ["latex/textbook.bib", "latex/packages.bib"]
+bibliography: [textbook.bib, packages.bib]
 biblio-style: apalike
+csl: /Users/francojc/Documents/Styles/apa-no-doi-no-issue.csl
 link-citations: yes
 links-as-notes: true
-linestretch: 1.5
 github-repo: francojc/tad
-description: "A textbook aimed at providing language researchers an introduction to text analysis literate programming concepts and coding practices."
+twitter-handle: jerid.francom
 ---
 
 <!-- TODOs:
@@ -22,36 +24,38 @@ description: "A textbook aimed at providing language researchers an introduction
   - ??
 -->
 
-```{r include = FALSE}
-if(!knitr:::is_html_output())
-{
-  options("width"=56)
-  knitr::opts_chunk$set(tidy.opts=list(width.cutoff=56, indent = 2), tidy = TRUE)
-  knitr::opts_chunk$set(fig.pos = 'H')
-}
-```
+# Welcome {-}
 
-# Welcome {- #welcome}
+<img src="images/cover-alt-pub.png" width="250" alt="Cover image" align="right" style="margin: 0 1em 0 1em" /> This is the website for *Text as Data: An Introduction to Quantitative Analysis and Reproducible Research in R*. The content is currently under development. Feedback is welcome and can be provided through the [hypothes.is](https://web.hypothes.is/) service. A toolbar interface to this service is located on the right sidebar. Note: you will need to register for a free account to make comments and suggestions.
 
 ```{r setup, echo=FALSE}
 pacman::p_load(tidyverse, rmarkdown, webshot)
 ```
 
-
-```{r settings, echo=FALSE, out.width='45%'}
+```{r settings, echo=FALSE, out.width='45%', eval=FALSE}
 knitr::include_graphics("images/cover-alt-pub.png")
 ```
 
-This is the website for *Text as Data: An introduction to quantitative analysis and reproducible research in R*
+<!-- TODO:
 
+- ~~add link to hypothes.is~~ 
+- make reference, and brief instructions on how to join the 'tad' group on hypothes.is
+- 
 
-## Author {-}
+-->
 
-Jerid Francom is Associate Professor of Spanish and Linguistics at Wake Forest University. His research interests are focused around quantitative approaches to language variation. 
+**Author**
+
+Dr. Jerid Francom is Associate Professor of Spanish and Linguistics at Wake Forest University. His research interests are focused around quantitative approaches to language variation. 
+
+**Acknowledgements**
+
+...
+
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'latex/packages.bib')
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'purrr', 'rvest'
+), 'packages.bib')
 ```

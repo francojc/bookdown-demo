@@ -1,20 +1,28 @@
 bookdown::gitbook:
   css: css/style.css
+  split_bib: no
+  split_by: chapter # chapter, section,
   includes:
       in_header: includes.html
   config:
     toc:
       collapse: section
+      scroll_highlight: yes
       before: |
         <li><a href="https://francojc.github.io/tad/">Text as Data</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/francojc/tad/edit/master/%s
     download: ["pdf", "epub"]
+    search: yes
+    sharing:
+      github: yes
+      facebook: no
 bookdown::pdf_book:
   includes:
     in_header: "latex/preamble.tex"
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes
-bookdown::epub_book: default
+bookdown::epub_book:
+  stylesheet: css/style.css

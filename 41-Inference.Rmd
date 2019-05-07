@@ -1,0 +1,11 @@
+# Inference
+
+```{block, type="rmdkey"}
+In this chapter you will learn:
+
+- ...
+```
+
+... introduction, and outline of the chapter...
+
+## Activities {-}

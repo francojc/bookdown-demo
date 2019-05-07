@@ -1,0 +1,40 @@
+# Curate data
+
+> This is a block quote. 
+> --- Me
+
+```{block, type="rmdkey"}
+In this chapter you will learn:
+
+- ...
+```
+
+... introduction, and outline of the chapter... 
+
+First steps in formating data that is conducive for quantitative research. It is important to make a distinction between two types of data that we are typically working with in text analysis: linguistic and non-linguistic data. 
+
+Linguistic data is the text that we are aiming to analyze. 
+
+Non-linguistic data, or **metadata**, is the data that we aim to associate with the linguistic data. Non-linguistic variables are tightly related to the type of text. For example, in text acquired from one-on-one interviews, non-linguistic variables may include information about the speakers' gender, age, language background, etc. 
+
+```{block, type="rmdtip"}
+Before continuing complete the following `learnr`/ interactive code exercises:
+
+- Custom functions: creation, documentation, and organization for subsequent use
+- Iterative function application via `purrr`
+- Understanding Markup languages; XML, HTML
+- Parsing and extracting information from markup with `rvest` 
+```
+
+## Metadata
+
+## Language data
+
+## Activities {-}
+
+**Concept questions**
+
+1. This is the first question, right?
+
+**Code exercises**
+

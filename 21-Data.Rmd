@@ -1,0 +1,20 @@
+# Understanding data
+
+```{block, type="rmdkey"}
+In this chapter you will learn:
+
+- ...
+```
+
+... introduction, and outline of the chapter
+
+## What is data? 
+
+### How is data organized?
+
+## Sampling
+
+## Descriptives
+
+## Activities {-}
+
